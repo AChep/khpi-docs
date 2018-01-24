@@ -36,6 +36,10 @@
 \lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
 \lstset{language=Matlab}
 
+\makeatletter
+\def\maxwidth#1{\ifdim\Gin@nat@width>#1 #1\else\Gin@nat@width\fi}
+\makeatother
+
 \begin{document}
 \Russian
 \title{Основы управление развитием организации}
@@ -293,7 +297,7 @@
 
 \begin{figure}[h]
 	\centering
-	\includegraphics{management-figures/marketing_structure}
+	\includegraphics[width=\maxwidth{\textwidth}]{management-figures/marketing_structure}
 	\caption{Структура маркетинговых исследований}
 \end{figure}
 
@@ -319,7 +323,7 @@
 \begin{figure}[h]
 	% http://powerbranding.ru/segmentirovanie/osnovy/
 	\centering
-	\includegraphics[width=\textwidth]{management-figures/marketing_segmentation_process}
+	\includegraphics[width=\maxwidth{\textwidth}]{management-figures/marketing_segmentation_process}
 	\caption{Схема сегментации рынка}
 \end{figure}
 
