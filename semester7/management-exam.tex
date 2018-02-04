@@ -1,48 +1,5 @@
-\documentclass[a4paper,12pt,oneside,final]{extarticle}
-\usepackage[top=2cm, bottom=2cm, left=3cm, right=1cm]{geometry}
-\usepackage{scrextend}
-
-\usepackage{fontspec}  
-\usepackage{polyglossia}
-
-\usepackage{tempora}
-\setmainfont{tempora}
-\setmainlanguage{russian} 
-\setotherlanguages{english,ukrainian}
-
-
-\frenchspacing
-
-% Lists
-\usepackage{enumitem}
-\renewcommand\labelitemi{--}
-\renewcommand\labelenumi{\arabic*}
-\setlist[description]{noitemsep,style=multiline,leftmargin=2.5cm}
-\setlist[itemize]{noitemsep}
-\setlist[enumerate]{noitemsep}
-
-\usepackage{titlesec}
-\newcommand{\sectionbreak}{\clearpage}
-
-\usepackage{hyperref} % make refs clickable
-\usepackage{float}
-\usepackage{pgfplots}
-\usepackage{graphicx}
-\usepackage{multirow}
-\usepackage{amssymb,amsfonts,amsmath,amsthm}
-\usepackage{csquotes}
-\usepackage{xstring}
-\usepackage{tabularx}
-
-\numberwithin{equation}{section}
-
-\usepackage{listings}
-\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
-\lstset{language=Matlab}
-
-\makeatletter
-\def\maxwidth#1{\ifdim\Gin@nat@width>#1 #1\else\Gin@nat@width\fi}
-\makeatother
+\input{../preamble}
+\input{../commons}
 
 \begin{document}
 \title{Основы управление развитием организации}

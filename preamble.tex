@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt,oneside,final]{extarticle}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=1cm]{geometry}
+\usepackage{scrextend}
+
+% language
+\usepackage{fontspec}  
+\usepackage{polyglossia}
+\usepackage{tempora}
+\setmainfont{tempora}
+\setmainlanguage{russian} 
+\setotherlanguages{english,ukrainian}
+
+\frenchspacing
+
+% lists
+\usepackage{enumitem}
+\renewcommand\labelitemi{--}
+\renewcommand\labelenumi{\arabic*}
+\setlist[description]{noitemsep,style=multiline,leftmargin=2.5cm}
+\setlist[itemize]{noitemsep}
+\setlist[enumerate]{noitemsep}
+
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+\makeatletter
+\def\maxwidth#1{\ifdim\Gin@nat@width>#1 #1\else\Gin@nat@width\fi}
+\makeatother
