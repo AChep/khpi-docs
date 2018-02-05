@@ -3,4 +3,4 @@ Lectures/Examination papers of National Technical University "Kharkiv Polytechni
 
 ## List of contents
 ### Semester 7
-- [{exam} Management](https://github.com/AChep/khpi-docs/blob/master/semester7/management-exam.pdf).
+- {[exam](https://github.com/AChep/khpi-docs/blob/master/semester7/management-exam.pdf)} Management.
